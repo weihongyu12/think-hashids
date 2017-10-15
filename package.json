@@ -1,0 +1,49 @@
+{
+  "name": "think-hashids",
+  "version": "1.0.0",
+  "description": "Generate short unique ids from integers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weihongyu12/think-hashids"
+  },
+  "keywords": [
+    "thinkjs3",
+    "hashids",
+    "think-extend"
+  ],
+  "author": {
+    "name": "weihongyu12",
+    "email": "weihongyu12@outlook.com"
+  },
+  "contributors": [
+    {
+      "name": "weihongyu12",
+      "email": "weihongyu12@outlook.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weihongyu12/think-hashids/issues"
+  },
+  "homepage": "https://github.com/weihongyu12/think-hashids",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.9.0",
+    "eslint-config-think": "^1.0.2",
+    "nyc": "^11.2.1"
+  },
+  "dependencies": {
+    "hashids": "^1.1.2",
+    "validator.js": "^2.0.3"
+  }
+}
