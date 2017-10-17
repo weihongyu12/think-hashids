@@ -1,16 +1,16 @@
-const thinkHashids = require('./lib/hashids');
+const Hashids = require('./lib/hashids');
 
 /**
  * extends to think, controller, context
  */
 module.exports = {
   controller: {
-    hashids: thinkHashids
+    hashids: options => new Hashids(options)
   },
   context: {
-    hashids: thinkHashids
+    hashids: options => new Hashids(options)
   },
   think: {
-    hashids: thinkHashids
+    hashids: options => new Hashids(options)
   }
 };
