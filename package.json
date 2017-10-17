@@ -44,6 +44,6 @@
   },
   "dependencies": {
     "hashids": "^1.1.2",
-    "validator.js": "^2.0.3"
+    "think-helper": "^1.0.22"
   }
 }
