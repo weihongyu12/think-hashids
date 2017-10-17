@@ -4,7 +4,8 @@
   "description": "Generate short unique ids from integers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --fix index.js & eslint --fix lib/**.js",
+    "test": "npm run lint && nyc ava test/"
   },
   "repository": {
     "type": "git",
