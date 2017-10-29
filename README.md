@@ -23,7 +23,7 @@ module.exports = [
 ```
 
 ## Config
-- <code>salt<:code>:Participate in the calculated salt. Default:<code>''</code>
+- <code>salt</code>:Participate in the calculated salt. Default:<code>''</code>
 - <code>minLength</code>:The minimum length of the resulting result. Default:<code>0</code>
 - <code>alphabet</code>:Generates the resulting character set .Default:<code>'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'</code>
 
