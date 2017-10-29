@@ -1,5 +1,5 @@
 # think-hashids
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/think-hashids)
+[![npm](https://img.shields.io/npm/v/think-hashids..svg)](https://www.npmjs.com/package/think-hashids)
 
 Generate a short unique ID from the integer for ThinkJS base on [hashids](http://hashids.org/)
 
