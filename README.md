@@ -1,6 +1,7 @@
 # think-hashids
-[![npm](https://img.shields.io/npm/v/think-hashids..svg)](https://www.npmjs.com/package/think-hashids)
+[![npm](https://img.shields.io/npm/v/think-hashids.svg)](https://www.npmjs.com/package/think-hashids)
 [![Build Status](https://travis-ci.org/weihongyu12/think-hashids.svg?branch=master)](https://travis-ci.org/weihongyu12/think-hashids)
+[![Coverage Status](https://coveralls.io/repos/github/weihongyu12/think-hashids/badge.svg?branch=master)](https://coveralls.io/github/weihongyu12/think-hashids?branch=master)
 
 Generate a short unique ID from the integer for ThinkJS base on [hashids](http://hashids.org/)
 
