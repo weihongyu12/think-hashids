@@ -14,8 +14,8 @@ test('encode', t => {
 
 test('decode', t => {
   const hashids = thinkHashids().think.hashids;
-  const numbers = hashids.decode('jR');
-  t.is(numbers[0], 1);
+  const [numbers] = hashids.decode('jR');
+  t.is(numbers, 1);
 });
 
 test('encodeHex', t => {
@@ -44,8 +44,8 @@ test('decode salt', t => {
     salt: 'this is salt'
   };
   const hashids = thinkHashids(option).think.hashids;
-  const numbers = hashids.decode('Vn');
-  t.is(numbers[0], 1);
+  const [numbers] = hashids.decode('Vn');
+  t.is(numbers, 1);
 });
 
 test('encode minLength', t => {
@@ -62,8 +62,8 @@ test('decode minLength', t => {
     minLength: 10
   };
   const hashids = thinkHashids(option).think.hashids;
-  const numbers = hashids.decode('VolejRejNm');
-  t.is(numbers[0], 1);
+  const [numbers] = hashids.decode('VolejRejNm');
+  t.is(numbers, 1);
 });
 
 test('encode alphabet', t => {
@@ -80,8 +80,8 @@ test('decode alphabet', t => {
     alphabet: 'abcdefghijklmnopqrstuvwxyz'
   };
   const hashids = thinkHashids(option).think.hashids;
-  const numbers = hashids.decode('ej');
-  t.is(numbers[0], 1);
+  const [numbers] = hashids.decode('ej');
+  t.is(numbers, 1);
 });
 
 test('context', t => {
