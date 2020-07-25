@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/weihongyu12/think-hashids",
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=10.13.0"
   },
   "devDependencies": {
     "@ava/babel": "^1.0.1",
