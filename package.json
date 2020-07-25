@@ -1,6 +1,6 @@
 {
   "name": "think-hashids",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Generate short unique ids from integers",
   "main": "index.js",
   "scripts": {
