@@ -18,6 +18,18 @@ test('decode', t => {
   t.is(numbers, 1);
 });
 
+test('encode BigInt', t => {
+  const hashids = thinkHashids().think.hashids;
+  const id = hashids.encode(9007199254740993n);
+  t.is(id, 'n6WOO7OkrgY');
+});
+
+test('decode BigInt', t => {
+  const hashids = thinkHashids().think.hashids;
+  const [numbers] = hashids.decode('n6WOO7OkrgY');
+  t.is(numbers, 9007199254740993n);
+});
+
 test('encodeHex', t => {
   const hashids = thinkHashids().think.hashids;
   const id = hashids.encodeHex('507f1f77bcf86cd799439011');
